@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "A:\\DEV\\Projeto-BarberShop-Code\\Projeto-BarberShop-Code.csproj": {}
+    "A:\\DEV\\API-PROJETO-BARBERSHOP-CODE-BACK\\Projeto-BarberShop-Code.csproj": {}
   },
   "projects": {
-    "A:\\DEV\\Projeto-BarberShop-Code\\Projeto-BarberShop-Code.csproj": {
+    "A:\\DEV\\API-PROJETO-BARBERSHOP-CODE-BACK\\Projeto-BarberShop-Code.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "A:\\DEV\\Projeto-BarberShop-Code\\Projeto-BarberShop-Code.csproj",
+        "projectUniqueName": "A:\\DEV\\API-PROJETO-BARBERSHOP-CODE-BACK\\Projeto-BarberShop-Code.csproj",
         "projectName": "Projeto-BarberShop-Code",
-        "projectPath": "A:\\DEV\\Projeto-BarberShop-Code\\Projeto-BarberShop-Code.csproj",
+        "projectPath": "A:\\DEV\\API-PROJETO-BARBERSHOP-CODE-BACK\\Projeto-BarberShop-Code.csproj",
         "packagesPath": "C:\\Users\\mayco\\.nuget\\packages\\",
-        "outputPath": "A:\\DEV\\Projeto-BarberShop-Code\\obj\\",
+        "outputPath": "A:\\DEV\\API-PROJETO-BARBERSHOP-CODE-BACK\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mayco\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -43,6 +43,26 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"

@@ -13,9 +13,6 @@ namespace Projeto_BarberShop_Code.Services.Interfaces
         Task<bool> AtualizarCliente(ClienteDto clienteDto);
         Task<bool> AtualizarBarbeiro(BarbeiroDto barbeiroDto);
         Task<bool> DeletarUsuario(int id);
-        Task<Models.UsuarioModel> ObterUsuarioPorId(int id);
-        Task<Models.UsuarioModel> ObterUsuarioPorNome(string nomeUsuario);
-        Task<Models.UsuarioModel> ObterUsuarioPorNomeUsuario(string nomeUsuario);
         Task<List<Models.UsuarioModel>> ObterTodosUsuarios();
         Task<List<Models.UsuarioModel>> ObterTodosBarbeiros();
         Task<List<Models.UsuarioModel>> ObterTodosClientes();    
